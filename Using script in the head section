@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function myFunction(){
+    document.getElementById("demo").innerHTML="hello, welcome to javascript.";
+}
+</script>
+</head>
+<body>
+<h2>javascript</h2>
+<p id="demo">programming language</p>
+<button type="button"onclick="myFunction()">click this</button>
+</body>
+</html>
