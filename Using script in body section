@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>javascript</h2>
+  <p id="demo">programming language </p>
+  <button type="button"onclick="myFunction()">click here </button>
+  <script>
+    function myFunction(){
+      document.getElementById("demo").innerHTML="hello, welcome to js";
+     
+    }
+  </script>
+  </body>
+  </html>
